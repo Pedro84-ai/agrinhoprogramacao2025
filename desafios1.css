@@ -45,6 +45,7 @@ header {
 
 .paragrafos{
            text-decoration: underline;
+         
    
 }
 
@@ -57,7 +58,7 @@ header {
 .imgdesafio2{
     width: 38%;
     height: 400px;
-    margin-left: 500px;
+  
 }
 
 .subtitulos2{
@@ -67,6 +68,7 @@ header {
 
 .paragrafos2{
        text-decoration: underline;
+         margin-right: 600px;
     
 }
 
