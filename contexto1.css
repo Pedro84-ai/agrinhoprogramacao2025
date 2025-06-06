@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+#titulo1{
+    background-color: coral;
+    width: 400px;
+    margin-left: 450px;
+}
+
+.navitens {
+    margin: 20px;
+    background-color: rgb(202, 161, 56);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.navitens:hover{
+   font-weight: bold;
+   background-color:chartreuse;
+}
+
+.imgintro{
+    width: 33%;
+    vertical-align: top;
+    height: 400px;
+}
+
+
+
+
+footer{
+    background-color: rgb(53, 53, 53);
+    vertical-align: bottom;
+    
+    
+}

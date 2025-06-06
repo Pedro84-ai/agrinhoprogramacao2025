@@ -1,0 +1,76 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 30px;
+}
+
+#titulo1{
+    background-color: coral;
+    width: 400px;
+    margin-left: 450px;
+    border: 2px solid black;
+}
+
+.navitens {
+    margin: 20px;
+    background-color: rgb(202, 161, 56);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.navitens:hover{
+   font-weight: bold;
+   background-color:chartreuse;
+}
+
+
+.div1-3{
+    display: flex;
+    align-items: start;
+}
+
+.imgdesafio{
+     width: 38%;
+    
+}
+
+.subtitulos{
+       text-decoration: underline;
+    
+}
+
+.paragrafos{
+           text-decoration: underline;
+   
+}
+
+
+.div2{
+     display: flex;
+    align-items: start;
+}
+
+.imgdesafio2{
+    width: 38%;
+    height: 400px;
+    margin-left: 500px;
+}
+
+.subtitulos2{
+   text-decoration: underline;
+    
+}
+
+.paragrafos2{
+       text-decoration: underline;
+    
+}
+
+footer{
+    background-color: rgb(53, 53, 53);
+    vertical-align: bottom;
+}
