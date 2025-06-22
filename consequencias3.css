@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+#titulo1{
+    background: radial-gradient(circle,  rgb(255, 163, 58), rgb(248, 120, 0));
+    border: 2px solid black;
+    width: 400px;
+    margin-left: 450px;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-variation-settings:  "wdth" 100;
+     font-size: 44px;
+}
+
+.navitens {
+    margin: 20px;
+    background-color: rgb(202, 161, 56);
+    border: 2px solid ;
+    border-radius: 5px;
+     font-size: 20px;
+}
+
+.navitens:hover{
+   font-weight: bold;
+   background-color:chartreuse;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-variation-settings:"width" 100;
+}
+
+p {
+    font-size: 23px;
+}
+
+.imgbottom{
+    width: 33%;
+    vertical-align: bottom;
+    height: 400px;
+}
+
+a {
+    font-size: 23px;
+}

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
 body {
     background-color: bisque;
 }
@@ -9,10 +13,14 @@ header {
 }
 
 #titulo1{
-    background-color: coral;
+    background: radial-gradient(circle,  rgb(255, 163, 58), rgb(248, 120, 0));
     width: 400px;
     margin-left: 450px;
     border: 2px solid black;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-variation-settings:  "wdth" 100;
+     font-size: 44px;
 }
 
 .navitens {
@@ -20,6 +28,7 @@ header {
     background-color: rgb(202, 161, 56);
     border: 2px solid black;
     border-radius: 5px;
+     font-size: 20px;
 }
 
 .navitens:hover{
@@ -28,49 +37,49 @@ header {
 }
 
 
+h2 {
+    font-size: 35px;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-variation-settings:  "wdth" 100;
+}
+
+h3 {
+    font-size: 28px;
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-variation-settings:"width" 100;
+}
+
+p {
+    font-size: 23px;
+}
+
+a {
+    font-size: 23px;
+}
+
 .div1-3{
-    display: flex;
-    align-items: start;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
 }
 
 .imgdesafio{
-     width: 38%;
+     width: 390px;
+     height: auto;
     
 }
-
-.subtitulos{
-       text-decoration: underline;
-    
-}
-
-.paragrafos{
-           text-decoration: underline;
-   
-}
-
 
 .div2{
-     display: flex;
-    align-items: start;
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
 }
 
 .imgdesafio2{
-    width: 38%;
-    height: 400px;
-    margin-left: 500px;
-}
-
-.subtitulos2{
-   text-decoration: underline;
-    
-}
-
-.paragrafos2{
-       text-decoration: underline;
-    
-}
-
-footer{
-    background-color: rgb(53, 53, 53);
-    vertical-align: bottom;
+    width: 390px;
+     height: auto;
 }
